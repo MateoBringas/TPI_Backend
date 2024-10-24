@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a5abd9f-8109-43a6-80b3-0593d26ed9fd" name="Changes" comment="" />
+    <list default="true" id="3a5abd9f-8109-43a6-80b3-0593d26ed9fd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +35,7 @@
     "ignore.preview.features.used": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mateo/OneDrive/Desktop/MS_Vehiculo",
+    "last_opened_file_path": "C:/Users/mateo/OneDrive/Desktop/Facultad/Back/TPI_Backend/MS_Empleados",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,6 +74,8 @@
       <workItem from="1729787033278" duration="79000" />
       <workItem from="1729787130557" duration="400000" />
       <workItem from="1729787552282" duration="183000" />
+      <workItem from="1729789481267" duration="19000" />
+      <workItem from="1729789522954" duration="10000" />
     </task>
     <servers />
   </component>
