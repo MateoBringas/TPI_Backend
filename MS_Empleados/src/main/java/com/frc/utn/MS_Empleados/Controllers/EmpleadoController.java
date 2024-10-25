@@ -49,9 +49,9 @@ public class EmpleadoController {
     }
 
     @PutMapping("/{legajo}")
-    public ResponseEntity<Empleado> updateEmpleado(@PathVariable Long legajo, @RequestBody Empleado marca) {
+    public ResponseEntity<Empleado> updateEmpleado(@PathVariable Long legajo, @RequestBody Empleado empleado) {
         try {
-            Empleado updatedEmpleado = empleadoService.update(legajo, marca);
+            Empleado updatedEmpleado = empleadoService.update(legajo, empleado);
             return new ResponseEntity<>(updatedEmpleado, HttpStatus.OK);
         } catch (Exception e) {
             return new ResponseEntity<>(null, HttpStatus.NOT_FOUND);
