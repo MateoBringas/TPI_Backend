@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="111c549a-09b5-4795-ba61-5627fce6103d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MS.eureka/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS.eureka/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS.eureka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS.eureka/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS.eureka/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS.eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS.eureka/src/main/java/com/MS_eureka/MS/eureka/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS.eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS.eureka/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS.eureka/src/test/java/com/MS_eureka/MS/eureka/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS.gateway/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS.gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS.gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS.gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS.gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS.gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS.gateway/src/main/java/com/MS_gateway/MS/gateway/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS.gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS.gateway/src/test/java/com/MS_gateway/MS/gateway/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Empleados/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Empleados/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Empleados/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Empleados/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Empleados/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Empleados/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Empleados/src/main/java/com/frc/utn/MS_Empleados/Controllers/EmpleadoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Empleados/src/main/java/com/frc/utn/MS_Empleados/Models/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Empleados/src/main/java/com/frc/utn/MS_Empleados/MsEmpleadosApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Empleados/src/main/java/com/frc/utn/MS_Empleados/Repository/EmpleadoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Empleados/src/main/java/com/frc/utn/MS_Empleados/Service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Empleados/src/main/java/com/frc/utn/MS_Empleados/Service/EmpleadoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Empleados/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Empleados/src/test/java/com/frc/utn/MS_Empleados/MsEmpleadosApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Interesados/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Interesados/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Interesados/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Interesados/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Interesados/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Interesados/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Interesados/src/main/java/com/frc/utn/MS_Interesados/Controllers/InteresadoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Interesados/src/main/java/com/frc/utn/MS_Interesados/MsInteresadosApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Interesados/src/main/java/com/frc/utn/MS_Interesados/Repository/InteresadoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Interesados/src/main/java/com/frc/utn/MS_Interesados/Service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Interesados/src/main/java/com/frc/utn/MS_Interesados/Service/InteresadoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Interesados/src/main/java/com/frc/utn/MS_Interesados/models/Interesado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Interesados/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Interesados/src/test/java/com/frc/utn/MS_Interesados/MsInteresadosApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Pruebas/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Pruebas/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Pruebas/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Pruebas/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Pruebas/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Pruebas/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Pruebas/src/main/java/com/frc/utn/MS_Pruebas/MsPruebasApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Pruebas/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Pruebas/src/test/java/com/frc/utn/MS_Pruebas/MsPruebasApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Controllers/MarcaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Controllers/ModeloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Controllers/VehiculoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Models/Marca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Models/Modelo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Models/Vehiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/MsVehiculoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Repository/MarcaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Repository/ModeloRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Repository/VehiculoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Services/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Services/MarcaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Services/ModeloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Services/VehiculoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_Vehiculo/src/test/java/com/frc/utn/MS_Vehiculo/MsVehiculoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_config/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_config/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_config/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_config/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_config/src/main/java/com/MS_config/MS_config/MsConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_config/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MS_config/src/test/java/com/MS_config/MS_config/MsConfigApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Empleados/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Empleados/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Empleados/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Empleados/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Empleados/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Empleados/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Empleados/src/main/java/com/frc/utn/MS_Empleados/Controllers/EmpleadoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Empleados/src/main/java/com/frc/utn/MS_Empleados/Models/Empleado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Empleados/src/main/java/com/frc/utn/MS_Empleados/MsEmpleadosApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Empleados/src/main/java/com/frc/utn/MS_Empleados/Repository/EmpleadoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Empleados/src/main/java/com/frc/utn/MS_Empleados/Service/BaseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Empleados/src/main/java/com/frc/utn/MS_Empleados/Service/EmpleadoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Empleados/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Empleados/src/test/java/com/frc/utn/MS_Empleados/MsEmpleadosApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Interesados/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Interesados/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Interesados/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Interesados/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Interesados/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Interesados/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Interesados/src/main/java/com/frc/utn/MS_Interesados/Controllers/InteresadoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Interesados/src/main/java/com/frc/utn/MS_Interesados/MsInteresadosApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Interesados/src/main/java/com/frc/utn/MS_Interesados/Repository/InteresadoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Interesados/src/main/java/com/frc/utn/MS_Interesados/Service/BaseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Interesados/src/main/java/com/frc/utn/MS_Interesados/Service/InteresadoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Interesados/src/main/java/com/frc/utn/MS_Interesados/models/Interesado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Interesados/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Interesados/src/test/java/com/frc/utn/MS_Interesados/MsInteresadosApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Pruebas/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Pruebas/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Pruebas/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Pruebas/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Pruebas/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Pruebas/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Pruebas/src/main/java/com/frc/utn/MS_Pruebas/MsPruebasApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Pruebas/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Pruebas/src/test/java/com/frc/utn/MS_Pruebas/MsPruebasApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Controllers/MarcaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Controllers/ModeloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Controllers/VehiculoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Models/Marca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Models/Modelo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Models/Vehiculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/MsVehiculoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Repository/MarcaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Repository/ModeloRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Repository/VehiculoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Services/BaseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Services/MarcaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Services/ModeloService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Services/VehiculoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS_Vehiculo/src/test/java/com/frc/utn/MS_Vehiculo/MsVehiculoApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2oMs0v2iZh65m5JmTxwE9vovZHM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.EurekaApplication.executor": "Run",
+    "Spring Boot.MsEmpleadosApplication.executor": "Run",
+    "Spring Boot.MsInteresadosApplication.executor": "Run",
+    "Spring Boot.MsPruebasApplication.executor": "Run",
+    "Spring Boot.MsVehiculoApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mateo/OneDrive/Desktop/Facultad/Back/TPI_Backend/MS_Vehiculo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MsInteresadosApplication">
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="MS.eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.MS_eureka.MS.eureka.EurekaApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.MS_eureka.MS.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MS_config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.MS_config.MS_config.MsConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsEmpleadosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MS_Empleados" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.frc.utn.MS_Empleados.MsEmpleadosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsInteresadosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MS_Interesados" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.frc.utn.MS_Interesados.MsInteresadosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsPruebasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MS_Pruebas" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.frc.utn.MS_Pruebas.MsPruebasApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsVehiculoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MS_Vehiculo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.frc.utn.MS_Vehiculo.MsVehiculoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.EurekaApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="111c549a-09b5-4795-ba61-5627fce6103d" name="Changes" comment="" />
+      <created>1730690560111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730690560111</updated>
+      <workItem from="1730690561172" duration="3123000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
