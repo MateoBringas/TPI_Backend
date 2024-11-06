@@ -21,12 +21,12 @@
 
 	<modules>
 		<module>MS.gateway</module>
-		<module>MS.eureka</module>
-		<module>MS_config</module>
 		<module>MS_Empleados</module>
 		<module>MS_Interesados</module>
 		<module>MS_Pruebas</module>
 		<module>MS_Vehiculo</module>
+		<module>MS_Posiciones</module>
+		<module>MS_Notificacion</module>
 	</modules>
 	<properties>
 		<java.version>21</java.version>

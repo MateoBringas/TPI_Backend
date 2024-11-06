@@ -1,9 +1,9 @@
 server:
-  port: 8093
+  port: 8085
 
 spring:
   application:
-    name: MS_Vehiculo
+    name: MS_Notificacion
   datasource:
     url: jdbc:mysql://localhost:3306/tpi_microservicio1
     password: 123456789
@@ -15,3 +15,10 @@ spring:
       ddl-auto: update
     database: mysql
     database-platform: org.hibernate.dialect.MySQLDialect
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
