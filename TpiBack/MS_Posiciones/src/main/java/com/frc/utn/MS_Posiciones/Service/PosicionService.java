@@ -5,6 +5,7 @@ import com.frc.utn.MS_Posiciones.Repository.PosicionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 
@@ -13,12 +14,21 @@ public class PosicionService {
     @Autowired
     private PosicionRepository posicionRepository;
 
-    public Posicion getPosicion(Long id){
+    public Posicion obtenerPosicion(Long id){
         Optional<Posicion> posicion = posicionRepository.findById(id);
         return posicion.get();
     }
 
-    public List<Posicion> getPosiciones(){
+    public Posicion save(Posicion posicion){
+        posicion.setFechaHora(LocalDateTime.now());
+        return posicionRepository.save(posicion);
+    }
+
+    public void delete(Posicion posicion) {
+        posicionRepository.delete(posicion);
+    }
+
+    public List<Posicion> obtenerPosiciones() {
         return posicionRepository.findAll();
     }
 }
