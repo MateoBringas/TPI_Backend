@@ -10,11 +10,12 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/interesados")
+@RequestMapping("/api/interesados")
 public class InteresadoController {
 
     @Autowired
     private InteresadoService interesadoService;
+
 
     @PostMapping
     public ResponseEntity<Interesado> createInteresado(@RequestBody Interesado interesado) {

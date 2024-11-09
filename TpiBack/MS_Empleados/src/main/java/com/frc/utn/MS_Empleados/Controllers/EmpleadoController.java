@@ -38,7 +38,7 @@ public class EmpleadoController {
         }
     }
 
-    @GetMapping("/search/{legajo}")
+    @GetMapping("/{legajo}")
     public ResponseEntity<Empleado> getEmpleadoById(@PathVariable Long legajo) {
         try {
             Empleado empleado = empleadoService.findById(legajo);
