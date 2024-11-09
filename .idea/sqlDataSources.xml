@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="3089d366-806a-4d71-a813-e433f0f5f054" name="tpi_microservicio1@localhost Mapping">
+      <data-sources db="cc41efa1-d3a7-46ce-a26a-96c0303a5e11" ddl="fd7d45c0-760c-481b-bb89-a9eee87407a6" />
+    </mapping>
+  </component>
+</project>

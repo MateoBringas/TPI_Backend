@@ -1,7 +1,13 @@
 package com.frc.utn.MS_Vehiculo.Models;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 public class Vehiculo {
     @Id
@@ -11,40 +17,4 @@ public class Vehiculo {
     @ManyToOne
     private Modelo modelo;
 
-    public Vehiculo() {
-    }
-
-    public Vehiculo(String patente, Modelo modelo) {
-        this.patente = patente;
-        this.modelo = modelo;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public String getPatente() {
-        return patente;
-    }
-
-    public void setPatente(String patente) {
-        this.patente = patente;
-    }
-
-    public Modelo getModelo() {
-        return modelo;
-    }
-
-    public void setModelo(Modelo modelo) {
-        this.modelo = modelo;
-    }
-
-    @Override
-    public String toString() {
-        return "Vehiculo{" +
-                "id=" + id +
-                ", patente='" + patente + '\'' +
-                ", modelo=" + modelo +
-                '}';
-    }
 }

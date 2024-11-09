@@ -6,7 +6,7 @@ spring:
     name: MS_Posiciones
   datasource:
     url: jdbc:mysql://localhost:3306/tpi_microservicio1
-    password: 123456789
+    password: root
     username: root
   config:
     import: optional:configserver:http://localhost:8888

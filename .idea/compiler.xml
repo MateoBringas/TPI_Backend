@@ -7,8 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MS_Posiciones" />
         <module name="MS_Notificacion" />
+        <module name="MS_Posiciones" />
         <module name="MS_Interesados" />
         <module name="MS_Empleados" />
         <module name="MS_Pruebas" />
@@ -16,14 +16,9 @@
         <module name="MS.gateway" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="MS.eureka" target="21" />
-      <module name="MS_config" target="21" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="MS.eureka" options="-parameters" />
       <module name="MS.gateway" options="-parameters" />
       <module name="MS_Empleados" options="-parameters" />
       <module name="MS_Interesados" options="-parameters" />
@@ -31,8 +26,6 @@
       <module name="MS_Posiciones" options="-parameters" />
       <module name="MS_Pruebas" options="-parameters" />
       <module name="MS_Vehiculo" options="-parameters" />
-      <module name="MS_config" options="-parameters" />
-      <module name="TpiBack" options="" />
     </option>
   </component>
 </project>
