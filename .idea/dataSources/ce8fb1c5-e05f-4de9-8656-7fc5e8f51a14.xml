@@ -1041,7 +1041,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </schema>
     <schema id="292" parent="1" name="tpi_microservicio1">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-11-09.19:22:57</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-11-10.06:10:22</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="293" parent="1" name="Mateo">

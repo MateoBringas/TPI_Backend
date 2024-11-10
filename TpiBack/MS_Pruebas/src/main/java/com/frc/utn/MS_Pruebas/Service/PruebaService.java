@@ -5,6 +5,7 @@ import com.frc.utn.MS_Pruebas.Repository.PruebaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -47,6 +48,17 @@ public class PruebaService implements BaseService<Prueba> {
 
     public List<Prueba> findAll(){
         return pruebaRepository.findAll();
+    }
+
+    public List<Prueba> findByPruebaActiva(){
+        List<Prueba> pruebas = pruebaRepository.findAll();
+        List<Prueba> pruebaActiva = new ArrayList<Prueba>();
+        for (Prueba prueba : pruebas){
+            if (prueba.getFechaHoraFin() == null){
+                pruebaActiva.add(prueba);
+            }
+        }
+        return pruebaActiva;
     }
 
 }
