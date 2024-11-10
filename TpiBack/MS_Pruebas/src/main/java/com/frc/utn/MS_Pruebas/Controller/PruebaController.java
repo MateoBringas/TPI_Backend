@@ -1,5 +1,6 @@
 package com.frc.utn.MS_Pruebas.Controller;
 
+import com.frc.utn.MS_Pruebas.DTO.ComentarioDto;
 import com.frc.utn.MS_Pruebas.DTO.PruebaCompletaDTO;
 import com.frc.utn.MS_Pruebas.Models.Prueba;
 import com.frc.utn.MS_Pruebas.Service.*;
@@ -38,4 +39,10 @@ public class PruebaController {
         List<PruebaCompletaDTO> pruebaCompletaDTOS = pruebaCompletaService.getPruebasActivas();
         return ResponseEntity.ok(pruebaCompletaDTOS);
     }
+
+    @PutMapping("/finalizar/{id}")
+    public ResponseEntity<PruebaCompletaDTO> finalizarPrueba(@PathVariable Long id, @RequestBody ComentarioDto comentario){
+        return ResponseEntity.ok(pruebaCompletaService.finalizarPrueba(id,comentario.getComentario()));
+    }
+
 }

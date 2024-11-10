@@ -1,9 +1,6 @@
 package com.frc.utn.MS_Pruebas.Service;
 
-import com.frc.utn.MS_Pruebas.DTO.EmpleadoDto;
-import com.frc.utn.MS_Pruebas.DTO.InteresadoDto;
-import com.frc.utn.MS_Pruebas.DTO.PruebaCompletaDTO;
-import com.frc.utn.MS_Pruebas.DTO.VehiculoDto;
+import com.frc.utn.MS_Pruebas.DTO.*;
 import com.frc.utn.MS_Pruebas.Exceptions.RestriccionInteresadoException;
 import com.frc.utn.MS_Pruebas.Exceptions.VehiculoEnUsoException;
 import com.frc.utn.MS_Pruebas.Models.Prueba;
@@ -94,5 +91,13 @@ public class PruebaCompletaDtoService {
             }
         }
         return pruebaCompletaDTOS;
+    }
+    //1-C Finalizar Prueba
+    public PruebaCompletaDTO finalizarPrueba(Long id, String comentario){
+        Prueba prueba = pruebaService.findById(id);
+        prueba.setFechaHoraFin(LocalDateTime.now());
+        prueba.setComentarios(comentario);
+        pruebaService.save(prueba);
+        return getPruebaCompletaById(id);
     }
 }

@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f22f75ac-7e2b-4b55-9d0c-4b18213f8644" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TpiBack/MS_Pruebas/src/main/java/com/frc/utn/MS_Pruebas/Exceptions/RestriccionInteresadoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TpiBack/MS_Pruebas/src/main/java/com/frc/utn/MS_Pruebas/Exceptions/VehiculoEnUsoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TpiBack/MS_Pruebas/src/main/java/com/frc/utn/MS_Pruebas/Service/PruebaCompletaDtoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ce8fb1c5-e05f-4de9-8656-7fc5e8f51a14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ce8fb1c5-e05f-4de9-8656-7fc5e8f51a14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TpiBack/MS_Pruebas/src/main/java/com/frc/utn/MS_Pruebas/DTO/ComentarioDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TpiBack/MS_Pruebas/src/main/java/com/frc/utn/MS_Pruebas/Controller/PruebaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TpiBack/MS_Pruebas/src/main/java/com/frc/utn/MS_Pruebas/Controller/PruebaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpiBack/MS_Pruebas/src/main/java/com/frc/utn/MS_Pruebas/Service/PruebaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TpiBack/MS_Pruebas/src/main/java/com/frc/utn/MS_Pruebas/Service/PruebaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpiBack/MS_Pruebas/src/main/java/com/frc/utn/MS_Pruebas/Service/PruebaCompletaDtoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TpiBack/MS_Pruebas/src/main/java/com/frc/utn/MS_Pruebas/Service/PruebaCompletaDtoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +162,7 @@
       <workItem from="1731176061452" duration="4923000" />
       <workItem from="1731196185016" duration="1242000" />
       <workItem from="1731211286328" duration="7644000" />
+      <workItem from="1731262539806" duration="4464000" />
     </task>
     <servers />
   </component>
