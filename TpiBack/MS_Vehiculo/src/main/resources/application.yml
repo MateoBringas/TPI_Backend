@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: MS_Vehiculo
+    name: MS_Vehiculos
   datasource:
     url: jdbc:mysql://localhost:3306/tpi_microservicio1
     password: root

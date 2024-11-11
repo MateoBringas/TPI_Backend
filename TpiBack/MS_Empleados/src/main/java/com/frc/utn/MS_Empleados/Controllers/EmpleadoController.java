@@ -28,7 +28,7 @@ public class EmpleadoController {
         }
     }
 
-    @GetMapping("/all")
+    @GetMapping("")
     public ResponseEntity<List<Empleado>> getAllEmpleados() {
         try {
             List<Empleado> empleados = empleadoService.findAll();

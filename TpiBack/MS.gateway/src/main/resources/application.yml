@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: MS.gateway
+  config:
+    import: optional:configserver:http://localhost:8888
+  cloud:
+    gateway:
+      routes:
+        - id: MS_Pruebas
+          uri: http://localhost:8092
+          predicates:
+            - Path=/api/pruebas/**
+        - id: MS_Vehiculos_Vehiculos
+          uri: http://localhost:8093
+          predicates:
+            - Path=/api/vehiculos/**
+        - id: MS_Vehiculos_Modelos
+          uri: http://localhost:8093
+          predicates:
+            - Path=/api/modelos/**
+        - id: MS_Vehiculos_Marcas
+          uri: http://localhost:8093
+          predicates:
+            - Path=/api/marcas/**
+        - id: MS_Posiciones
+          uri: http://localhost:8094
+          predicates:
+            - Path=/api/posiciones/**
+        - id: MS_Notificaciones
+          uri: http://localhost:8095
+          predicates:
+            - Path=/api/notificaciones/**
+        - id: MS_Interesados
+          uri: http://localhost:8091
+          predicates:
+            - Path=/api/interesados/**
+        - id: MS_Empleados
+          uri: http://localhost:8090
+          predicates:
+            - Path=/api/empleados/**

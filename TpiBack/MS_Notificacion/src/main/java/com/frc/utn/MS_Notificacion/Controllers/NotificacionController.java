@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/notifiaciones")
+@RequestMapping("/api/notificaciones")
 public class NotificacionController {
 
     @Autowired
@@ -20,4 +20,5 @@ public class NotificacionController {
         notificacionService.enviarNotificacion(notificacion);
         return ResponseEntity.ok("Notificacion enviada com sucesso");
     }
+
 }
