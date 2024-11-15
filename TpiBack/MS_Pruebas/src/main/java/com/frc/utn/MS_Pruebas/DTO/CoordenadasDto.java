@@ -7,9 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class EmpleadoDto {
-    private Long legajo;
-    private String nombre;
-    private String apellido;
-    private String telefonoContacto;
+public class CoordenadasDto {
+    private double lat;
+    private double lon;
 }

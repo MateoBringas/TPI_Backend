@@ -7,13 +7,10 @@
     <list default="true" id="f22f75ac-7e2b-4b55-9d0c-4b18213f8644" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TpiBack/MS.gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TpiBack/MS.gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpiBack/MS.gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TpiBack/MS.gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpiBack/MS_Empleados/src/main/java/com/frc/utn/MS_Empleados/Controllers/EmpleadoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TpiBack/MS_Empleados/src/main/java/com/frc/utn/MS_Empleados/Controllers/EmpleadoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpiBack/MS_Notificacion/src/main/java/com/frc/utn/MS_Notificacion/Controllers/NotificacionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TpiBack/MS_Notificacion/src/main/java/com/frc/utn/MS_Notificacion/Controllers/NotificacionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpiBack/MS_Notificacion/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/TpiBack/MS_Notificacion/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpiBack/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Controllers/MarcaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TpiBack/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Controllers/MarcaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpiBack/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Controllers/ModeloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TpiBack/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Controllers/ModeloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpiBack/MS_Vehiculo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/TpiBack/MS_Vehiculo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpiBack/MS.gateway/src/main/java/com/MS_gateway/MS/gateway/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/TpiBack/MS.gateway/src/main/java/com/MS_gateway/MS/gateway/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpiBack/MS.gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/TpiBack/MS.gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpiBack/MS_Vehiculo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TpiBack/MS_Vehiculo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpiBack/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Controllers/VehiculoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TpiBack/MS_Vehiculo/src/main/java/com/frc/utn/MS_Vehiculo/Controllers/VehiculoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +175,8 @@
       <workItem from="1731211286328" duration="7644000" />
       <workItem from="1731262539806" duration="6880000" />
       <workItem from="1731294171405" duration="3093000" />
+      <workItem from="1731419162414" duration="10025000" />
+      <workItem from="1731453170898" duration="658000" />
     </task>
     <servers />
   </component>

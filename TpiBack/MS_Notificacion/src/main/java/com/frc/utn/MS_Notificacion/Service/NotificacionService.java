@@ -12,15 +12,9 @@ public class NotificacionService {
     @Autowired
     private NotificacionRepository notificacionRepository;
 
-    public void enviarNotificacion(Notificacion notificacion) {
-        List<TelefonoDestinatario>  telefonosDestinatario = notificacion.getTelefonosDestinatario();
-        for (TelefonoDestinatario telefonoDestinatario : telefonosDestinatario){
-            enviarSMS(telefonoDestinatario,notificacion.getMensaje());
-            notificacionRepository.save(notificacion);
-        }
+    //1-E
+    public Notificacion enviarNotificacion(Notificacion notificacion) {
+        return notificacionRepository.save(notificacion);
     }
 
-    public void enviarSMS(TelefonoDestinatario telefonoDestinatario, String mensaje){
-        System.out.println("Enviando SMS a " + telefonoDestinatario + ": " + mensaje);
-    }
 }

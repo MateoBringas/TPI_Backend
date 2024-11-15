@@ -38,3 +38,15 @@ spring:
           uri: http://localhost:8090
           predicates:
             - Path=/api/empleados/**
+
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://labsys.frc.utn.edu.ar/aim/
+
+
+
+  main:
+    allow-bean-definition-overriding=true:
