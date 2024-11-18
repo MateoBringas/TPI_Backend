@@ -45,8 +45,5 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: https://labsys.frc.utn.edu.ar/aim/
-
-
-
   main:
-    allow-bean-definition-overriding=true:
+    allow-bean-definition-overriding: true
